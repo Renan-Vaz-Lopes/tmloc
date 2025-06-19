@@ -1,0 +1,16 @@
+{
+    "name": "renan/tmloc",
+    "description": "Uma Plataforma Web para Socialização e Difusão do Tênis de Mesa",
+    "type": "project",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Renan Vaz Lopes"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "phpoffice/phpspreadsheet": "^4.0",
+        "vlucas/phpdotenv": "^5.6"
+    }
+}

@@ -1,0 +1,43 @@
+.tabela {
+    width: 40%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+.tabela td {
+    border-bottom: 1px solid #ddd;
+    padding: 8px;
+    vertical-align: middle;
+}
+
+.tabela th {
+    background-color: #4CAF50;
+    color: white;
+    text-align: left;
+    padding: 8px;
+    background-color: black;
+}
+
+.tabela td.acao {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.botao {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: black;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.tirarUnderline {
+    text-decoration: none;
+}
+
+.meio {
+    text-align: center;
+}

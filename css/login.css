@@ -1,0 +1,74 @@
+body {
+
+    position: absolute;
+
+    top: 50%;
+
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
+}
+
+.botao {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: black;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    appearance: none;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+}
+
+.botao-redefinir-senha {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 20px;
+        background-color: black;
+        color: #fff;
+        text-decoration: none;
+        font-size: 14px;
+        font-family: Arial, sans-serif;
+        margin: 0 auto;
+        width: 21%;
+    }
+
+    .botao-confirmar-email {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 20px;
+        background-color: black;
+        color: #fff;
+        text-decoration: none;
+        font-size: 14px;
+        font-family: Arial, sans-serif;
+        margin: 0 auto;
+        width: 56%;
+    }
+
+.meio {
+    text-align: center;
+}
+
+input {
+    padding: 2px;
+}
+
+p:has(button) {
+    text-align: center;
+}
+
+.input-text {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }

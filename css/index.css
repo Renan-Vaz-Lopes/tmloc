@@ -1,0 +1,135 @@
+.carrossel {
+    position: relative;
+    height: 80px; 
+    overflow: hidden;
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+}
+
+.carrossel-texto {
+    display: none; 
+    font-size: 1.2em;
+    position: absolute;
+    transition: opacity 0.5s ease-in-out; 
+}   
+
+@keyframes fade {
+
+    0%,
+    20%,
+    100% {
+        opacity: 0;
+    }
+
+    30%,
+    90% {
+        opacity: 1;
+    }
+}
+
+.botao {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: black;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    appearance: none;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    margin-top: 1%;
+}
+
+.historia-ct {
+    text-align: center;
+    margin-top: 7%;
+}
+
+.estado-dropdown,
+.cidade-dropdown,
+.ct-dropdown {
+    padding: 3px;
+    margin: 1px;
+    width: 20%;
+}
+
+.div_login {
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.meio {
+    text-align: center;
+}
+
+.link_mostrar_cts {
+    color: white;
+    text-decoration: none;
+}
+
+.select-style {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    color: #333;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+
+.select-style option {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    background-color: #fff;
+    color: #333;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+.select-style option:checked {
+    background-color: blue;
+
+    color: white;
+}
+
+.texto_maps {
+    font-size: 20px;
+}
+
+.tabela-cts {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+
+.tabela-cts th {
+    background-color: #4CAF50;
+
+    color: white;
+    text-align: left;
+    padding: 8px;
+    background-color: black;
+}
+
+
+.tabela-cts td {
+    border-bottom: 1px solid #ddd;
+    padding: 8px;
+}
+
+.div_tabelas {
+    width: 45%;
+    margin: 2% auto;
+}
+
+.link-end {
+    color: blue;
+}

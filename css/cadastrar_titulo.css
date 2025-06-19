@@ -1,0 +1,84 @@
+form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: none;
+    padding: 1px;
+}
+
+a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: black;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: black;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.meio {
+    display: block;
+    margin: 20px auto;
+    width: fit-content;
+}
+
+p:has(button) {
+    text-align: center;
+}
+
+input {
+    padding: 2px;
+}
+
+form select {
+    width: 100%;
+}
+
+.input-text {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.select-style {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    color: #333;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+
+.select-style option {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    background-color: #fff;
+    color: #333;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+.select-style option:checked {
+    background-color: blue;
+   
+    color: white;
+}
+.semBorda {
+    border: none;
+}
