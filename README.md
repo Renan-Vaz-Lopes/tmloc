@@ -6,7 +6,10 @@ Tmloc: uma plataforma web para socialização, difusão e automatização do tê
 
 •	Tecnologias utilizadas:
 
-o	Front-end: JS
-o	Back-end: PHP
-o	BD: MySQL(XAMPP)
-o	IDE: VS code
+*Front-end: JS
+
+*Back-end: PHP
+
+*BD: MySQL(XAMPP)
+
+*IDE: VS code
